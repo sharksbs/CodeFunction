@@ -1,1 +1,22 @@
+html
+<div class="layui-col-xs9 layui-col-sm9 layui-col-md7 layui-col-lg7">
+                                                <script id="container" name="" type="text/plain" maxlength="20000">
+                                                </script>
+                                                <input type="hidden" class="layui-input" lay-verify="requiredd1">
+                                            </div>
+                                            
+js
+<!--ueditor富文本开始-->
+    <script src="../../js/ueditor/ueditor.config.js"></script>
+    <script src="../../js/ueditor/ueditor.all.min.js"></script>
 
+    <!-- 公式插件js   -->
+    <script src="../../js/ueditor/kityformula-plugin/addKityFormulaDialog.js" charset="utf-8"></script>
+    <script src="../../js/ueditor/kityformula-plugin/getKfContent.js" charset="utf-8"></script>
+    <script src="../../js/ueditor/kityformula-plugin/defaultFilterFix.js" charset="utf-8"></script>
+    <!-- 公式插件js   -->
+
+    <script src="../../js/views/trainManagement/curriculumManagementchapterManagementNewAdd.js"></script>
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
